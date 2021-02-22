@@ -1,0 +1,28 @@
+{
+  "name": "parcel-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/optimizer-cssnano": "^2.0.0-nightly.607",
+    "@parcel/optimizer-htmlnano": "^2.0.0-nightly.607",
+    "@parcel/packager-css": "^2.0.0-nightly.607",
+    "@parcel/packager-html": "^2.0.0-nightly.607",
+    "@parcel/transformer-css": "^2.0.0-nightly.607",
+    "@parcel/transformer-html": "^2.0.0-nightly.607",
+    "@parcel/transformer-postcss": "^2.0.0-nightly.607",
+    "@parcel/transformer-posthtml": "^2.0.0-nightly.607",
+    "autoprefixer": "^10.2.4",
+    "parcel": "^2.0.0-nightly.605",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {}
+}
